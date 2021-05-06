@@ -5,7 +5,7 @@ function guessNum(number) {
     let pickedNum = prompt("Pick a number between 1-10", "Number")
 
     if (pickedNum == number) {
-        console.log(`You guessed it!`)
+        console.log(`You did it!`)
     } else {
         guessNum(number)
     }
